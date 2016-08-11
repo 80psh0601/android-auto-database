@@ -18,7 +18,7 @@ public class TableCreator {
 
 		for(int field = 0, maxfield = fieldArray.length; field < maxfield; field++) {
 
-			if( (fieldArray[field].getType() == int.class ||fieldArray[field].getType() == long.class || fieldArray[field].getType() == String.class) && field < maxfield-1 && field != 0) {
+			if( (fieldArray[field].getType() == int.class ||fieldArray[field].getType() == long.class || fieldArray[field].getType() == String.class) && field != 0) {
 				strMakeQuery += ", ";
 			}
 
