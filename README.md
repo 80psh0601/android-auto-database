@@ -1,6 +1,6 @@
 # android-ggomdol-autodatabase
 
-The Auto Database on Android Platform 
+The Auto Database on Android Platform. Base the Reflect
 
 You can create Android Database easily. Java Reflect was used for the library.  
 
